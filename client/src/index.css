@@ -11,3 +11,89 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header-style {
+  background-color: orange;
+}
+
+.sit-left {
+  justify-content: flex-start;
+}
+
+.sit-right {
+  justify-content: flex-end;
+}
+
+.card-text {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2px;
+  border: 1px solid black;
+}
+
+.bills-name {
+  flex-shrink: 0;
+}
+
+.button-primary {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.x-box {
+  background-color: red;
+}
+
+.check-box {
+  background-color: green;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: gray;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+.drop-down {
+  margin-left: 3px;
+}
+
+.date-div {
+  margin-left: 12px;
+  margin-bottom: 12px;
+}
+
+.fixedbutton {
+  position: fixed;
+  bottom: 0px;
+  right: 0px; 
+  /* border: 1px solid black; */
+  font-size: 40px;
+  /* border-radius: 50%; */
+  /* padding-bottom: 3px; */
+  /* padding-top: 3px; */
+  margin-right: 9px;
+  margin-bottom: 9px;
+  color: orange;
+  width: 40px;
+  height: 40px;
+  /* background-color: rgba(255, 114, 0, 0.69); */
+}
+
+.hamburger {
+  height: 30px;
+  width: 30px;
+}
+
+.backcolor {
+  background-color: gray;
+  border-radius: 50%;
+}
